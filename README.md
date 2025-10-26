@@ -3,25 +3,10 @@
 Este projeto implementa o algoritmo de Bellman-Ford em Java para a determinação de caminhos mínimos em grafos direcionados e ponderados com pesos positivos.  
 Além de calcular o menor custo entre dois vértices, a implementação considera o critério de desempate baseado no **menor número de arestas** entre caminhos de mesmo custo, garantindo uma análise mais precisa da rota mais eficiente.
 
-## Estrutura do Projeto
-
-```
-Caminhamento/
-├── Main.java                 # Classe principal, responsável pela execução e interação com o usuário
-├── ListaAdjacencia.java      # Estrutura de dados utilizada para representar o grafo
-├── BellmanFord.java          # Implementação do algoritmo de Bellman-Ford
-├── gerar_resultados.py       # Script em Python para automatizar testes e geração de tabelas/gráficos
-├── grafico_denso.png         # Gráfico de desempenho (grafos densos)
-├── grafico_esparso.png       # Gráfico de desempenho (grafos esparsos)
-├── grafo_denso_*.txt         # Instâncias de grafos densos usadas para testes
-├── grafo_esparso_*.txt       # Instâncias de grafos esparsos usadas para testes
-└── resultados_completos.xlsx # Tabelas de resultados geradas automaticamente
-```
-
 ## Requisitos
 
 - **Java 17** ou superior
-- **Python 3.8+**
+- **Python 3**
 - Bibliotecas Python:
   - `pandas`
   - `matplotlib`
@@ -38,6 +23,9 @@ pip install pandas matplotlib openpyxl
 Na raiz do projeto:
 ```bash
 javac Main.java
+```
+
+```bash
 java Main
 ```
 
