@@ -1,0 +1,5 @@
+Arquivo,Vértices,Arestas,Origem-Destino,Distância Mínima,Nº de Arestas no Caminho,Tempo Médio (ms)
+grafo_esparso_5.txt,5,4,1->5,20,4,184.25
+grafo_esparso_10.txt,10,9,1->10,52,7,158.45
+grafo_esparso_15.txt,15,14,1->15,35,6,188.44
+grafo_esparso_20.txt,20,19,1->20,63,14,156.43
