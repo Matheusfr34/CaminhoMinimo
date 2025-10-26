@@ -78,6 +78,4 @@ O desempenho e a precisão dos resultados foram comparados por meio de tabelas e
 
 ## Autor
 
-**Matheus Filipe Rocha Viana**  
-Pontifícia Universidade Católica de Minas Gerais  
-Disciplina: Algoritmos e Estruturas de Dados III
+**Matheus Filipe Rocha Viana** 
